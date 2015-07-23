@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="${packageName}.${activityClass}" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/aa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="봉사안내"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"/>
+        <Button
+            android:id="@+id/bb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="봉사확인"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:layout_marginTop="30dp"/>
+        <Button
+            android:id="@+id/cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My봉사시간"
+            android:paddingLeft="100dp"
+            android:paddingRight="85dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+</RelativeLayout>
