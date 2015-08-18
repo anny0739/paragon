@@ -26,7 +26,7 @@ public class LoginActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), MenuActivity.class);
                 startActivityForResult(intent, REQUEST_CODE_LOGIN);
-                Log.d("msg","junGitTest");
+                Log.d("msg","junGitTest2");
             }
         });
     }
