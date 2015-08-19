@@ -20,6 +20,7 @@ import com.nhn.android.maps.NMapOverlayItem;
 import com.nhn.android.maps.overlay.NMapPOIitem;
 import com.nhn.android.mapviewer.overlay.NMapResourceProvider;
 
+import com.paragonproject.ezwel.paragonproject.R;
 
 /**
  * Wrapper class to provider resources on map view.
